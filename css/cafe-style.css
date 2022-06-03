@@ -1,0 +1,44 @@
+
+body {
+		background-color:#E9E7E1;
+}
+h2{
+	font-family: 'Roboto Mono', monospace;
+	font-weight:800;
+	color: #4d1b00;
+}
+h4{
+	font-family: 'Roboto Mono', monospace;
+	font-weight:600;
+}
+p{
+	font-family: 'Source Code Pro', monospace;
+	font-weight:400;
+	color: #4d1b00
+}
+#title{
+	color: white;
+	display: block;
+}
+#googlemap{
+	margin:auto; 
+}
+#main{
+	border-radius: 25px;
+	background: #dfcdb9;
+	padding: 50px;
+	margin: 50px auto;
+	width: 1500px;
+	height: 700px;
+}
+#main h2{
+	color: white;
+}
+#flexbox{
+	display: inline-flex;
+	width: 1500px;
+	height: 500px;
+}
+#contactus{
+	margin:auto; 
+}
