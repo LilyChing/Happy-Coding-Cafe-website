@@ -29,8 +29,17 @@
             font-family: 'Blaka', sans-serif;
             background-color: #45330C;
             color: white;
-            /* add another google font  *#05aa57/
-  }
+            }
+        
+        .form1 {
+     font-family: 'Blaka', sans-serif;
+            background-color: #45330C;
+            color: white;
+            text-align: center;
+            
+        }
+        /* add another google font  *#05aa57/
+
     </style>
     <title>Happy Coding Bar & Cafe </title>
 </head>
@@ -93,7 +102,8 @@
 <h2> Main Course</h2>
 <ul>
     <li>Salads </li>
-    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2017/06/healthy-nicoise-09b6cd9.jpg" width="200" height="200" alt="salads" />
+    <img src='https://images.immediate.co.uk/production/volatile/sites/30/2017/06/healthy-nicoise-09b6cd9.jpg' onmouseover="this.src='https://recipesfromapantry.com/wp-content/uploads/2016/06/chopped-Veggie-Salad-42-of-66.jpg'" onmouseout="this.src='https://images.immediate.co.uk/production/volatile/sites/30/2017/06/healthy-nicoise-09b6cd9.jpg'"width="200" height="200" alt="salads"/>
+    <!-- pic change salads" -->
     <!-- format of alt text: alt="salads" -->
     <li>Burgers</li>
     <img src="https://efficiencyiseverything.com/wp-content/uploads/2018/02/bk-buger.png" width="200" height="200" alt=Burger />
@@ -115,6 +125,10 @@
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_0fh7phym.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+<form action="submit page.html" class="form1">
+  <input type="submit" value="Submit">
+</form>
 
 <div>
     <h2>Contact Us</h2>
