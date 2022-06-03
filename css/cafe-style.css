@@ -1,0 +1,16 @@
+
+body {
+		background-color:#E9E7E1;
+}
+h2{
+	font-family: 'Roboto Mono', monospace;
+	font-weight:800;
+}
+h4{
+	font-family: 'Roboto Mono', monospace;
+	font-weight:600;
+}
+p{
+	font-family: 'Source Code Pro', monospace;
+	font-weight:400;
+}
