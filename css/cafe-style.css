@@ -30,15 +30,17 @@ table{
 }
 table th,td{
 	padding: 20px;
+	word-wrap: break-word;
 }
 .ordertable{
-	border: 2px #4d1b00 solid;
+	border: 2px #dfcdb9 solid;
 	border-radius: 25px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 50%;
 }
 .ordertable th{
-	background-color: #4d1b00;
+	background-color: #dfcdb9;
 	border-radius: 20px 20px 0px 0px;
 }
 .ordertable h4{
