@@ -25,6 +25,9 @@ form{
 }
 table{
 	border-spacing: 20px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight:400;
+	color: #4d1b00
 }
 #title{
 	color: white;
