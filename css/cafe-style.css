@@ -6,39 +6,79 @@ h2{
 	font-family: 'Roboto Mono', monospace;
 	font-weight:800;
 	color: #4d1b00;
+	text-align: center;
 }
 h4{
 	font-family: 'Roboto Mono', monospace;
 	font-weight:600;
+	color: #4d1b00;
 }
 p{
 	font-family: 'Source Code Pro', monospace;
 	font-weight:400;
 	color: #4d1b00
 }
+form{
+	font-family: 'Source Code Pro', monospace;
+	font-weight:400;
+	color: #4d1b00
+}
+table{
+	font-family: 'Source Code Pro', monospace;
+	font-weight:400;
+	color: #4d1b00;
+}
+table th,td{
+	padding: 20px;
+	word-wrap: break-word;
+}
+.ordertable{
+	border: 2px #dfcdb9 solid;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.ordertable th{
+	background-color: #dfcdb9;
+	border-radius: 20px 20px 0px 0px;
+}
+.ordertable h4{
+	color: white;
+}
 #title{
 	color: white;
 	display: block;
 }
 #googlemap{
-	margin:auto; 
+	margin-top: auto; 
+	margin-bottom: auto;
+	margin-left: auto; 
+	margin-right: 0;
 }
-#main{
+#contactus{
 	border-radius: 25px;
 	background: #dfcdb9;
-	padding: 50px;
+	padding: 50px 70px 70px;
 	margin: 50px auto;
 	width: 1500px;
-	height: 700px;
 }
-#main h2{
+#contactus h2{
 	color: white;
 }
 #flexbox{
 	display: inline-flex;
 	width: 1500px;
-	height: 500px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
-#contactus{
-	margin:auto; 
+
+.radio-inline{
+	margin: 0px 40px 20px 0px;
+	cursor: pointer;
+}
+
+.showLike{
+
+	display:none;
 }

@@ -17,12 +17,13 @@
 	<title>Contact Us</title>
 </head>
 <body>
-	<main id="main">
+	<main id="contactus">
 		<h2>Contact Us</h2>
 			<div id="flexbox">
-				<div id="contactus">
+				<div>
 			    	<p><strong>Address:</strong> 800 Decatur St at The French Market, New Orleans, LA.</p>
 				    <p><strong>TEL: </strong>8888 8888</p>
+				    <br>
 				    <p><strong>Opening Hours:</strong></p>
 				    <p>Sunday to Friday</p>
 				    <p>8:00 A.M. to 10:00 P.M.</p>
@@ -33,6 +34,46 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.762029176036!2d-90.06405078425638!3d29.957522881913906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a611684fee05%3A0xeb03cf26c2263a0d!2zODAwIERlY2F0dXIgU3QsIE5ldyBPcmxlYW5zLCBMQSA3MDExNue-juWciw!5e0!3m2!1szh-TW!2shk!4v1654251667977!5m2!1szh-TW!2shk" width="600" height="450" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
+		<h2>Feedback</h2>
+			<form>
+				<table>
+					<tr>
+						<td colspan="2">
+							<p>How do you rate your overall experience?*</p>
+							<label class="radio-inline"><input type="radio" name="experience" value="bad">Bad</label>
+							<label class="radio-inline"><input type="radio" name="experience" value="average">Average</label>
+							<label class="radio-inline"><input type="radio" name="experience" value="good">Good</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Full Name*<br>
+							<input type="text" name="name" required></label>
+						</td>
+						<td>
+							<label>Age*<br>
+							<input type="number" name="age" required placeholder="25"></label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Email*<br>
+							<input type="text"  required placeholder="XXXX@gmail.com"></label>
+						</td>
+						<td>
+							<label>Phone*<br>
+							<input type="number" required placeholder="+852"></label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label class="col-md-8">Message*<br>
+							<textarea id="message" required="" placeholder="Write yor message here" cols="48" rows="5"></textarea></label>
+						</td>
+					</tr>
+				</div>
+				</table>
+			</form>
 	</main>
 </body>
 </html>
