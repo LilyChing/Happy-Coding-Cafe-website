@@ -14,117 +14,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
     <style>
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D5D1C2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #868274;
+}
+		
         body {
             font-family: 'Roboto Mono', monospace;
-        }
-
-        .table1 {
-            font-family: 'Montserrat', sans-serif;
-            font-family: 'Noto Sans TC', sans-serif;
-            background-color: #45330C;
-            color: white;
-        }
-
-        .table2 {
-            font-family: 'Blaka', sans-serif;
-            background-color: #45330C;
-            color: white;
-            }
-        
+        }      
         .form1 {
      font-family: 'Blaka', sans-serif;
             background-color: #45330C;
             color: white;
-            text-align: center;
-            
+            text-align: center;    
         }
         /* add another google font  *#05aa57/
 
     </style>
-    <title>Happy Coding Bar & Cafe </title>
+<title>Happy Coding Cafe</title>
 </head>
 
-<body style="background-color:#F3F3D2;">
-<h1><i class="fa-solid fa-mug-saucer"></i>Happy Coding Bar & Cafe</h1>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ypjtsfzg.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+<body style="background-color:#ECE9E0;">
 
-<audio controls autoplay>
-    <source src="horse.ogg" type="audio/ogg">
-    <source src="horse.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
-
-<h2> Drink </h2>
-<table style="border: 2px black solid" class="table1">
-    <tr>
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-        <td><img src="https://www.yaucafe.com/uploads/popup/61dbefbe69357.jpg" height="120" alt="cafe"></td>
-        <th>Latte</th>
-        <th>Cappuccino</th>
-        <th>Espresso</th>
-    </tr>
-    <tr>
-        <td>Chocolate</td>
-        <td><img src="https://img.taste.com.au/krbWgPdh/taste/2016/11/white-chocolate-latte-6302-1.jpeg" height="120" alt="chocolate latte"></td>
-        <td><img src="https://static.onecms.io/wp-content/uploads/sites/19/2009/12/21/chocolate-cappucino-ck-x.jpg" height="120" alt="chocolate Cappuccino"></td>
-        <td><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/9/10/0/EI1003_Chocolate_Expresso_Cups.jpg.rend.hgtvcom.616.462.suffix/1371585537032.jpeg" height="120" alt="chocolate Espresso"></td>
-
-    </tr>
-    <tr>
-        <td>Matcha</td>
-        <td><img src="https://images.japancentre.com/recipes/pics/16/main/matcha-latte.jpg?1469572822" height="120" alt="Matcha Latte"></td>
-        <td><img src="https://www.acouplecooks.com/wp-content/uploads/2021/08/Matcha-Latte-001s.jpg" height="120" alt="Matcha Cappuccino"></td>
-        <td><img src="https://www.starbucks.com.au/imagecache/bestfit/750x750/_files/Beverages/sbx20160502-64726-iced-matchaespressofusion-pr.jpg" height="120" alt="Matcha Espresso"></td>
-    </tr>
-</table>
-
-<br>
-<table style="border: 2px black solid" class="table2">
-    <tr>
-        <th><img src="https://www.wine-searcher.com/images/news/76/06/76062920866284132c_cultx1.jpg?width=734&height=240&fit=crop" width="320" height="120" alt="wine"></th>
-
-    </tr>
-    <tr>
-        <th> Organic Wine </th>
-    </tr>
-    <tr>
-        <th>Rose Wine</th>
-    </tr>
-    <tr>
-        <th>White Wine</th>
-    </tr>
-</table>
-
-<h2> Main Course</h2>
+	
+	<!-- navigation bar -->
 <ul>
-    <li>Salads </li>
-    <img src='https://images.immediate.co.uk/production/volatile/sites/30/2017/06/healthy-nicoise-09b6cd9.jpg' onmouseover="this.src='https://recipesfromapantry.com/wp-content/uploads/2016/06/chopped-Veggie-Salad-42-of-66.jpg'" onmouseout="this.src='https://images.immediate.co.uk/production/volatile/sites/30/2017/06/healthy-nicoise-09b6cd9.jpg'"width="200" height="200" alt="salads"/>
-    <!-- pic change salads" -->
-    <!-- format of alt text: alt="salads" -->
-    <li>Burgers</li>
-    <img src="https://efficiencyiseverything.com/wp-content/uploads/2018/02/bk-buger.png" width="200" height="200" alt=Burger />
-    <li>The Baps</li>
-    <img src="https://whiskandknife.files.wordpress.com/2014/01/baps1.jpg" width="200" height="200" alt=The Baps />
+  <li><a href="#home"><a href="index.html"/><img src="image/main page/happy-coding cafe-logo.png" width="200" alt="cading cafe logo"/></a></li>
+  <li><a href="#order"><a href="contact_us.html"/>Order</a></li>
+  <li><a href="#contact"><a href="contact_us.html"/>Contact</a></li>
+  <li><a href="#about"><a href="about_ussss.html"/>About</a></li>
 </ul>
 
-<h2> Dessert </h2>
-<!--The Dessert we have here-->
-<ol>
-    <li>Cheese Cake</li>
-    <img src="https://d3l76hx23vw40a.cloudfront.net/recipe/whk23-041.jpg" width="200" height="200" alt="Cheese Cake" />
-    <li>Tiramisu</li>
-    <img src="https://i.epochtimes.com/assets/uploads/2021/02/shutterstock_1730616220-450x300.jpg" width="200" height="150" alt="Tiramisu" />
-    <li>Chocolate Brownie</li>
-    <img src="https://www.baked-theblog.com/wp-content/uploads/2020/06/Sourdough-Brownies-3-735x1109.jpg" width="200" height="250" alt="Chocolate Brownie" />
+	<!-- main page menu -->
+<br><br><br><br><br>	
+<table align="center" width="655" height="437">
+<tr>
+    <td width="322" height="71"><a href="about_ussss.html"/><img src="image/main page/main_aboutus.png" onmouseout="this.src='image/main page/main_aboutus.png'" onmouseover="this.src='image/main page/main_aboutus_m.png'" alt="aboutus.png" width="400"/></td>
+    <td width="321" rowspan="2"><a href="Alison_index.html"/><img src="image/main page/main_orderfood.png" onmouseout="this.src='image/main page/main_orderfood.png'" onmouseover="this.src='image/main page/main_orderfood_m.png'" alt="orderfood.png" width="400"/></td>
+</tr>
+  <tr>
+    <td><a href="contact_us.html"/><img src="image/main page/main_contactus.png" onmouseout="this.src='image/main page/main_contactus.png'" onmouseover="this.src='image/main page/main_contactus_m.png'" alt="contactus.png" width="400"/></td>
+  </tr>
+</table>
+<br>
 
-</ol>
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_0fh7phym.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
 
 <form action="submit page.html" class="form1">
   <input type="submit" value="Submit">
