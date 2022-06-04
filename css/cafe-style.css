@@ -75,3 +75,8 @@ table th,td{
 	margin: 0px 40px 20px 0px;
 	cursor: pointer;
 }
+
+.showLike{
+
+	display:none;
+}
