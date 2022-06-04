@@ -12,120 +12,10 @@
 
 	}
 
-	
-	.content {
-		max-width: 500px;
-		margin: auto;
-	}
-/* Shake the picture */
-	.shake:hover {
-		animation: shake 0.5s;
-		animation-iteration-count: infinite;
-	}
-
-	@keyframes shake {
-		0% {
-			transform: translate(1px, 1px) rotate(0deg);
-		}
-
-		10% {
-			transform: translate(-1px, -2px) rotate(-1deg);
-		}
-
-		20% {
-			transform: translate(-3px, 0px) rotate(1deg);
-		}
-
-		30% {
-			transform: translate(3px, 2px) rotate(0deg);
-		}
-
-		40% {
-			transform: translate(1px, -1px) rotate(1deg);
-		}
-
-		50% {
-			transform: translate(-1px, 2px) rotate(-1deg);
-		}
-
-		60% {
-			transform: translate(-3px, 1px) rotate(0deg);
-		}
-
-		70% {
-			transform: translate(3px, 1px) rotate(-1deg);
-		}
-
-		80% {
-			transform: translate(-1px, -1px) rotate(1deg);
-		}
-
-		90% {
-			transform: translate(1px, 2px) rotate(0deg);
-		}
-
-		100% {
-			transform: translate(1px, -2px) rotate(-1deg);
-		}
-	}
-
-	html {
-		box-sizing: border-box;
-	}
-
-	*,
-	*:before,
-	*:after {
-		box-sizing: inherit;
-	}
-
-	.column {
-		float: left;
-		width: 25%;
-		margin-bottom: 16px;
-		padding: 0 8px;
-	}
-
-	@media screen and (max-width: 650px) {
-		.column {
-			width: 100%;
-			display: block;
-		}
-	}
-
-	.card {
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	}
-
-	.container {
-		padding: 0 16px;
-	}
-
-	.container::after,
-	.row::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
-
-	.title {
-		color: grey;
-	}
-
-	.button {
-		border: none;
-		outline: 0;
-		display: inline-block;
-		padding: 8px;
-		color: white;
-		background-color: #000;
-		text-align: center;
-		cursor: pointer;
-		width: 100%;
-	}
-
-	.button:hover {
-		background-color: #555;
+	table,
+	th,
+	td {
+		border: 1px solid;
 	}
 </style>
 
@@ -133,82 +23,54 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- link to our own css file -->
-	<link rel="stylesheet" type="text/css" href="css/cafe-style.css">
-	<!-- link to fontawesome -->
-	<link rel="stylesheet" type="text/css" href="css/all.css">
-	<script type="text/javascript" src="js/all.js"></script>
-	<!-- end of fontawesome -->
-	<!-- link to google font -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Source+Code+Pro&display=swap"
-		rel="stylesheet">
-	<!-- end of google font -->
 	<title>About Ussss</title>
-	<h1 style="color: rgb(73, 37, 2);">About Us</h1>
+
+	<h1 style="color: rgb(142, 151, 238);">About Us</h1>
 
 </head>
 <!-- call out this  -->
 <hr class="hr-twill-colorful">
 
 <body>
-	<div class="content">
-		<h2>Introduction</h2>
-		<p>We are the cafe with the <em>coding theme</em> for customers to eat,chili and relax.
-			<img src=".\image\abous_us\coding_cafe.jpeg">
-		<p>Let's have fun!</p>
-		<div class="shake">
-			<img src=".\image\abous_us\1.gif" />
-		</div>
-		<h2>Our Teammates</h2>
-      
-		<!-- about lily -->
-		<div class="column">
-			<div class="card">
-				<img src=".\image\abous_us\d.png" alt="Lily" style="width:70%" class="shake">
-				<div class="container">
-					<h2>Lily</h2>
-					<p class="title">Teammates</p>
-				</div>
-			</div>
-		</div>
+
+	<h1>Hola there~</h1>
+	<img src=".\image\abous_us\1.gif" />
+	<h2>
+		<p>Our Coding X-mens</p>
+	</h2>
+	<h4>
+		<table>
+			<tr>
+				<th>Our member</th>
+			</tr>
+			<tr>
+				<td>
+					<p> <img src=".\image\abous_us\d.png" />Lily
+			<tr>
+				<td>
+					<p>Lily is a good girl</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p><img src=".\image\abous_us\b.png" />Alison</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p><img src=".\image\abous_us\a.png" />Mars </p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p><img src=".\image\abous_us\c.png" />Double</p>
+				</td>
+			</tr>
+		</table>
+	</h4>
 
 
-		<!-- about Alison -->
-		<div class="column">
-			<div class="card">
-				<img src=".\image\abous_us\b.png" alt="Alison" style="width:70%" class="shake">
-				<div class="container">
-					<h2>Alison</h2>
-					<p class="title">Teammates</p>
-				</div>
-			</div>
-		</div>
 
-		<!-- about Mars -->
-		<div class="column">
-			<div class="card">
-				<img src=".\image\abous_us\a.png" alt="Mars" style="width:70%" class="shake" >
-				<div class="container">
-					<h2>Mars</h2>
-					<p class="title">Teammates</p>
-				</div>
-			</div>
-		</div>
-
-		<!-- about Double-->
-		<div class="column">
-			<div class="card">
-				<img src=".\image\abous_us\c.png" alt="Double" style="width:70%" class="shake">
-				<div class="container">
-					<h2>Double</h2>
-					<p class="title">Teammates</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
 </body>
 
 </html>
