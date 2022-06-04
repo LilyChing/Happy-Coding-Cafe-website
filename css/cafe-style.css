@@ -24,10 +24,25 @@ form{
 	color: #4d1b00
 }
 table{
-	border-spacing: 20px;
 	font-family: 'Source Code Pro', monospace;
 	font-weight:400;
-	color: #4d1b00
+	color: #4d1b00;
+}
+table th,td{
+	padding: 20px;
+}
+.ordertable{
+	border: 2px #4d1b00 solid;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ordertable th{
+	background-color: #4d1b00;
+	border-radius: 20px 20px 0px 0px;
+}
+.ordertable h4{
+	color: white;
 }
 #title{
 	color: white;
@@ -39,14 +54,14 @@ table{
 	margin-left: auto; 
 	margin-right: 0;
 }
-#main{
+#contactus{
 	border-radius: 25px;
 	background: #dfcdb9;
 	padding: 50px 70px 70px;
 	margin: 50px auto;
 	width: 1500px;
 }
-#main h2{
+#contactus h2{
 	color: white;
 }
 #flexbox{
@@ -55,9 +70,8 @@ table{
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-#contactus{
-}
 
 .radio-inline{
 	margin: 0px 40px 20px 0px;
 	cursor: pointer;
+}
