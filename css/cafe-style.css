@@ -35,6 +35,10 @@ table th,td{
 footer{
 	margin-top: 50px;
 }
+main{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
 .ordertable{
 	border: 2px #ACA89B solid;
 	border-radius: 25px;
@@ -90,15 +94,17 @@ footer{
 }
 .nav{
 	position:fixed;
+	display: flex;
+  justify-content: center;
+  background-color: #D5D1C2;
   width: 100%;
-	border-left: none;
-  border-right: none;
   left: 0;
   top: 0;
 }
 .nav ul {
   display: flex;
-  list-style: wrap;
+  flex-flow: row wrap;
+  list-style-type: none;
   align-items: center;
   background-color: #D5D1C2;
   text-align: center;
