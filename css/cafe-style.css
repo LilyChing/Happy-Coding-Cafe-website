@@ -33,14 +33,14 @@ table th,td{
 	word-wrap: break-word;
 }
 .ordertable{
-	border: 2px #dfcdb9 solid;
+	border: 2px #ACA89B solid;
 	border-radius: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
 .ordertable th{
-	background-color: #dfcdb9;
+	background-color: #ACA89B;
 	border-radius: 20px 20px 0px 0px;
 }
 .ordertable h4{
