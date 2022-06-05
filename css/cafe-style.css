@@ -88,6 +88,10 @@ footer{
 .upper{
 	margin-bottom: 150px;
 }
+.nav{
+	display:flex;
+    justify-content:space-around;
+}
 .nav ul {
   list-style: none;
   background-color: #D5D1C2;
@@ -96,8 +100,6 @@ footer{
   margin: 0;
 }
 .nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
@@ -105,7 +107,7 @@ footer{
  
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   display: block;
   transition: .3s background-color;
 }
@@ -119,7 +121,9 @@ footer{
   color: #444;
   cursor: default;
 }
- 
+.nav img{
+	width:2.5%;	
+}
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
