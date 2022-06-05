@@ -19,7 +19,7 @@ button{
     height: 80px;
     border: none;
     outline: none;
-    background: #b0ee69;
+    background: #ACA89B;
     color: #fff;
     font-size: 22px;
     border-radius: 40px;
@@ -55,7 +55,7 @@ svg path{
 }
 
 .active{
-    background: #b0ee69;
+    background: #ACA89B;
     transition: 2s;
 }
 
