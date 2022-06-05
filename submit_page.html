@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  	<!-- below below submit buttom -->
+	<link rel="stylesheet" href=".\css\submit_button.css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,7 +45,7 @@ footer
 }
 
   .table1 {
-    margin-left: 35%;
+    margin:auto;
             font-family: 'Montserrat', sans-serif;
             font-family: 'Noto Sans TC', sans-serif;
             background-color: #CD5C5C;
@@ -49,6 +53,7 @@ footer
           text-align: center
           
         }
+        
 .homebtn {
   width: 120px; 
   height: 60px;
@@ -89,21 +94,36 @@ footer
 
     <th>
       <h2>Order Submitted Successfully</h2>
+      
     </th>
     
 </table>
+<br>
+<div class="upper">
+  <div class="submit">
+    <button id="btn">
+      <p id="btnText">Home</p>
+      <div class="check-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+        </svg>
+      </div>
+    </button>
+  </div>
+  <script type="text/javascript">
+    const btn = document.querySelector("#btn");
+    const btnText = document.querySelector("#btnText");
   
-
-  </body>
-  
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_0fh7phym.json" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player>
-<div>
-  
-<input type="button" class="homebtn" onclick="location.href='index.html';" value="Home" />
+    btn.onclick = () => {
+      window.open("index.html");
+    };
+    
+  </script>
+  </div>
+</div>
 </div>
 
-
+</body>
 <footer>
   <p>Copyright &copy; 2022 Happy_Coding_Cafe</p>
 </footer>
