@@ -58,13 +58,13 @@ table th,td{
 }
 #contactus{
 	border-radius: 25px;
-	background: #dfcdb9;
+	background: #ACA89B;
 	padding: 50px 70px 70px;
 	margin: 50px auto;
 	width: 1500px;
 }
 #contactus h2{
-	color: white;
+	text-align: left;
 }
 #flexbox{
 	display: inline-flex;
