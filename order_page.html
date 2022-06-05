@@ -16,7 +16,6 @@
 
 
 footer {
-  position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -24,6 +23,17 @@ footer {
   color: white;
   text-align: center;
 }
+
+
+.nav{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #ACA89B;
+  color: white;
+  text-align: center;
+  }
 
 </style>
 <head>
@@ -49,17 +59,31 @@ footer {
 </head>
 
 <body>
-    <h1><i class="fa-solid fa-mug-saucer"></i>Happy Coding Bar & Cafe</h1>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ypjtsfzg.json" background="transparent" speed="1"
-        style="width: 300px; height: 300px;" loop autoplay></lottie-player>
 
-    <audio controls autoplay>
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+	<!-- navigation bar -->
+    <ul>
+        <li><a href="#home"><a href="index.html"/><img src="image/main page/happy-coding cafe-logo.png" width="100" alt="cading cafe logo"/></a></li>
+        <li><a href="#order"><a href="order_page.html"/>Order</a></li>
+        <li><a href="#contact"><a href="contact_us.html"/>Contact</a></li>
+        <li><a href="#about"><a href="about_ussss.html"/>About</a></li>
+      </ul>
+          
+      <div class="nav">
+        <ul>
+          <li><a href="index.html"/><img src="image/main page/happy-coding cafe-logo.png" width="200" alt="cading cafe logo"/></a></li>
+          <li></li>
+          <li><a href="order_page.html"/>Order</a></li>
+          <li><a href="contact_us.html"/>Contact</a></li>
+          <li><a href="about_ussss.html"/>About</a></li>
+        </ul>
+      </div>
+
+    
+    <video autoplay controls muted>
+        <source src="song/3mins.mp3" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
 
     <h2>Drinner Set</h2>
     <form>
@@ -461,9 +485,18 @@ footer {
     };
     
 </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </body>
 
-<br>
+
+
 <footer>
     <p>Copyright &copy; 2022 Happy_Coding_Cafe</p>
   </footer>
