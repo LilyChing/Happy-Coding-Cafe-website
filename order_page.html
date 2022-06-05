@@ -60,23 +60,22 @@ footer {
 
 <body>
 
-	<!-- navigation bar -->
-    <ul>
-        <li><a href="#home"><a href="index.html"/><img src="image/main page/happy-coding cafe-logo.png" width="100" alt="cading cafe logo"/></a></li>
-        <li><a href="#order"><a href="order_page.html"/>Order</a></li>
-        <li><a href="#contact"><a href="contact_us.html"/>Contact</a></li>
-        <li><a href="#about"><a href="about_ussss.html"/>About</a></li>
-      </ul>
+    <!-- navigation bar --> 
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">
+          <div class="logo">
+            <img src="image/main page/happy-coding cafe-logo.png" width="100" alt="cading cafe logo"/>
+          </div>
+        </a></li>
           
-      <div class="nav">
-        <ul>
-          <li><a href="index.html"/><img src="image/main page/happy-coding cafe-logo.png" width="200" alt="cading cafe logo"/></a></li>
-          <li></li>
-          <li><a href="order_page.html"/>Order</a></li>
-          <li><a href="contact_us.html"/>Contact</a></li>
-          <li><a href="about_ussss.html"/>About</a></li>
-        </ul>
-      </div>
+        <li><a href="order_page.html"/>Order</li></a>
+        <li><a href="contact_us.html"/>Contact</li></a>
+        <li><a href="about_ussss.html"/>About</li></a>
+        <li><a href="index.html"/><img src="image/main page/happy-coding cafe-logo.png" width="200" alt="cading cafe logo"/></a></li>
+      </ul>
+    </div>
+    <!-- End of navigation bar -->
 
     
     <video autoplay controls muted>
@@ -85,146 +84,7 @@ footer {
         Your browser does not support the video tag.
       </video>
 
-    <h2>Drinner Set</h2>
-    <form>
-        <table class="ordertable">
-            <tr>
-                <th colspan="3">
-                    <h4>Salad<br><em>(Choose 1)</em></h4>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/Salad1.png" height="200" alt="Tomato Mozzarella">
-                </td>
-                <td>
-                    <label for="TomatoM" class="radio-inline"><strong>Tomato Mozzarella</strong>
-                        <p>Tomatoes, Fresh Basil, Olive Oil, Thick Balsamic Vinegar, <br>Salt, Pepper.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="TomatoM" type="radio" name="salad" value="Tomato Mozzarella"
-                        required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/Salad2.png" height="200" alt="Bresaola della Valtelline">
-                </td>
-                <td>
-                    <label for="BresaolaV" class="radio-inline"><strong>Bresaola della Valtelline</strong>
-                        <p>Bread, Olive Oil, Lettuce, Radishes, Black olives, Egg, <br>Bresaola, Parmesan, Vingar,
-                            Pepper.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="BresaolaV" type="radio" name="salad"
-                        value="Bresaola della Valtelline" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/Salad3.png" height="200" alt="Avocado & Salmon Salad">
-                </td>
-                <td>
-                    <label for="AvocadoSalmon" class="radio-inline"><strong>Avocado & Salmon Salad</strong>
-                        <p>Salmon, Avocado, Baby Spinach, Romaine lettuce, Olive Oil, <br>Vingar, Pepper.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="AvocadoSalmon" type="radio" name="salad"
-                        value="Avocado & Salmon Salad" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/Salad4.png" height="200" alt="Matcha Latte">
-                </td>
-                <td>
-                    <label for="CheeseS" class="radio-inline"><strong>Lollo Bionda Goat Cheese Salad</strong>
-                        <p>Lollo bionda lettuce, Cucumbers, Cherry tomatoes, Figs, <br>
-                            Green grapes, Goat cheese, crumbledFeta cheese, baguette.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="CheeseS" type="radio" name="salad"
-                        value="Lollo Bionda Goat Cheese Salad" required>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <table class="ordertable">
-            <tr>
-                <th colspan="3">
-                    <h4>Main Course<br><em>(Choose 1)</em></h4>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/main_course1.png" height="200" alt="Asparagus & Salmon">
-                </td>
-                <td>
-                    <label for="AsparagusSalmon" class="radio-inline"><strong>Asparagus & Salmon</strong>
-                        <p>Tomatoes, Fresh Basil, Olive Oil, Thick Balsamic Vinegar, <br>Salt, Pepper.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="AsparagusSalmon" type="radio" name="main_course"
-                        value="Asparagus & Salmon" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/main_course2.png" height="200"
-                        alt="Tuscan Veal Chops with Herbed Butter">
-                </td>
-                <td>
-                    <label for="Chops" class="radio-inline"><strong>Tuscan Veal Chops with Herbed Butter</strong>
-                        <p>Bread, Olive Oil, Lettuce, Radishes, Black olives, Egg, <br>Bresaola, Parmesan, Vingar,
-                            Pepper.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="Chops" type="radio" name="main_course"
-                        value="Tuscan Veal Chops with Herbed Butter" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/main_course3.png" height="200" alt="Pesto Sauce Spaghetti">
-                </td>
-                <td>
-                    <label for="PestoSpaghetti" class="radio-inline"><strong>Pesto Sauce Spaghetti</strong>
-                        <p>Salmon, Avocado, Baby Spinach, Romaine lettuce, Olive Oil, <br>Vingar, Pepper.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="PestoSpaghetti" type="radio" name="main_course"
-                        value="Pesto Sauce Spaghetti" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="image/order-food/main_course4.png" height="200" alt="Cuttlefish Sauce Spaghetti">
-                </td>
-                <td>
-                    <label for="fishSpaghetti" class="radio-inline"><strong>Cuttlefish Sauce Spaghetti</strong>
-                        <p>Lollo bionda lettuce, Cucumbers, Cherry tomatoes, Figs, <br>
-                            Green grapes, Goat cheese, crumbledFeta cheese, baguette.</p>
-                    </label>
-                </td>
-                <td>
-                    <input class="radio-inline" id="fishSpaghetti" type="radio" name="main_course"
-                        value="Cuttlefish Sauce Spaghetti" required>
-                </td>
-            </tr>
-        </table>
-    </form>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_0fh7phym.json" background="transparent" speed="1"
-        style="width: 300px; height: 300px;" loop autoplay id="like" class="showLike"></lottie-player>
-    <!-- below submit botton -->
- 
+
 <h2>Drinner Set</h2>
 <form action="submit_page.html" method="POST">
     <table class="ordertable">
@@ -295,7 +155,7 @@ footer {
             </td>
             <td>                      
                 <label for="AsparagusSalmon" class="radio-inline"><strong>Asparagus & Salmon</strong>
-                <p>Tomatoes, Fresh Basil, Olive Oil, Thick Balsamic Vinegar, Salt, Pepper.</p>
+                <p>Salmon fillets, Asparagus, parsley, Cilantro, Vegetable broth, Chicken broth, Lemon juice, Butter, Black pepper, Salt.</p>
             </label>
             </td>
             <td>
@@ -308,7 +168,7 @@ footer {
             </td>
             <td>                      
                 <label for="Chops" class="radio-inline"><strong>Tuscan Veal Chops with Herbed Butter</strong>
-                <p>Bread, Olive Oil, Lettuce, Radishes, Black olives, Egg, Bresaola, Parmesan, Vingar, Pepper.</p>
+                <p>Veal cutlets, Fresh rosemary, Fresh thyme, Garlic, Butter.</p>
             </label>
             </td>
             <td>
@@ -321,7 +181,7 @@ footer {
             </td>
             <td>                      
                 <label for="PestoSpaghetti" class="radio-inline"><strong>Pesto Sauce Spaghetti</strong>
-                <p>Salmon, Avocado, Baby Spinach, Romaine lettuce, Olive Oil, Vingar, Pepper.</p>
+                <p>Spaghetti, Mint leaves, Cherry tomatoes, Garlic, Basil, Parmesan cheese, Walnuts, Olive oil.</p>
             </label>
             </td>
             <td>
@@ -334,7 +194,7 @@ footer {
             </td>
             <td>                      
                 <label for="fishSpaghetti" class="radio-inline"><strong>Cuttlefish Sauce Spaghetti</strong>
-                <p>Lollo bionda lettuce, Cucumbers, Cherry tomatoes, Figs, Green grapes, Goat cheese, crumbledFeta cheese, baguette.</p>
+                <p>Spaghetti, Cuttlefish, Parsley, Tomatoes, Garlic, Wine, Butter, Pepper</p>
             </label>
             </td>
             <td>
