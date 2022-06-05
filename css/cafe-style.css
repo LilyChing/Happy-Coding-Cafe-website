@@ -71,7 +71,7 @@ footer{
 }
 #flexbox{
 	display: inline-flex;
-	width: 1500px;
+	width: 100%;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -115,7 +115,7 @@ footer{
 }
  
 .nav a.active {
-  background-color: #fff;
+  background-color: #868274;
   color: #444;
   cursor: default;
 }
