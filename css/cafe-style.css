@@ -32,6 +32,9 @@ table th,td{
 	padding: 20px;
 	word-wrap: break-word;
 }
+footer{
+	margin-top: 50px;
+}
 .ordertable{
 	border: 2px #ACA89B solid;
 	border-radius: 25px;
@@ -81,4 +84,7 @@ table th,td{
 .showLike{
 
 	display:none;
+}
+.upper{
+	margin-bottom: 150px;
 }
