@@ -24,6 +24,7 @@ form{
 	color: #000
 }
 table{
+  table-layout:fixed;
 	font-family: 'Source Code Pro', monospace;
 	font-weight:400;
 	color: #000;
@@ -31,6 +32,8 @@ table{
 table th,td{
 	padding: 20px;
 	word-wrap: break-word;
+  overflow: visible;
+  z-index: 0;
 }
 footer{
 	margin-top: 50px;
@@ -137,6 +140,22 @@ main{
   color: #444;
   cursor: default;
 }
+
+.foodimage {
+  display: relative;
+  transition-timing-function: linear;
+  position: static;
+  height: 200px;
+  z-index: 10;
+  transition-duration: 750ms;
+  transition-property: height;
+}
+
+.foodimage:hover {
+  height: 400px;
+}
+
+}
 @media screen and (min-width: 600px) {
   .nav li {
     width: 200px;
@@ -146,6 +165,35 @@ main{
     font-size: 1.4em;
   }
  
+  .submitbtn{
+    opacity: 0.5;
+    width: 120px; 
+    height: 60px;
+    margin-left: 45%;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: large;
+    background-color: #D5D1C2;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 13rem;
+    padding: 0 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+    .submitbtn:hover {
+      opacity: 1;
+      transition-property: color;
+      background-color: #483f20;
+      
+    
+    }
 	/* Option 1 - Display Inline*/
   .nav li {
     display: inline-block;
@@ -176,4 +224,3 @@ main{
   li a:hover:not(.active) {
     background-color: #868274;
   }*/
-	
