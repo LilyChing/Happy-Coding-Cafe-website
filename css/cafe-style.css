@@ -42,17 +42,18 @@ main{
 .ordertable{
 	border: 2px #ACA89B solid;
 	border-radius: 25px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	display: grid;
+	grid-template-rows:100px repeat(8, 1fr) 100px;
+	grid-template-columns: 80% 20%;
+	gap: 20px;
+	justify-items: center;
+
 }
 .ordertable th{
 	background-color: #ACA89B;
 	border-radius: 20px 20px 0px 0px;
 }
-.ordertable h4{
-	color: white;
-}
+
 #title{
 	color: white;
 	display: block;
@@ -177,3 +178,19 @@ main{
     background-color: #868274;
   }*/
 	
+	/*Staet of grid css*/
+	.order_container{
+		width: 80%;
+		margin: 50px auto;
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+  	gap:50px;
+	}
+	.grid_head, .grid_image{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.grid_info{
+		justify-items: center;
+	}
