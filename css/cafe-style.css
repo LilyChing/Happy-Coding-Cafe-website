@@ -190,6 +190,26 @@ main {
 		display: inline-block;
 		margin-right: -4px;
 	}
+	
+		/*	about us-source of food*/
+	span{
+		color: dimgray;
+	}
+	span:hover{
+		color: black;
+	    font-weight:400;
+	}
+	.img-hover{
+    width: 30%;
+	height: auto;  
+    display: none;
+}
+   
+  span:hover + .img-hover{
+  display: block;
+  position: absolute;	  
+}
+
 
 	/*ul {
   list-style-type: none;
