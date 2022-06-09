@@ -1,158 +1,197 @@
-
 body {
-		background-color:#E9E7E1;
+	background-color: #E9E7E1;
 }
-h2{
+
+h2 {
 	font-family: 'Roboto Mono', monospace;
-	font-weight:800;
+	font-weight: 800;
 	color: #000;
 	text-align: center;
 }
-h4{
+
+h4 {
 	font-family: 'Roboto Mono', monospace;
-	font-weight:600;
+	font-weight: 600;
 	color: #000;
 }
-p{
+
+p {
 	font-family: 'Source Code Pro', monospace;
-	font-weight:400;
+	font-weight: 400;
 	color: #000
 }
-form{
+
+form {
 	font-family: 'Source Code Pro', monospace;
-	font-weight:400;
+	font-weight: 400;
 	color: #000
 }
-table{
+
+table {
 	font-family: 'Source Code Pro', monospace;
-	font-weight:400;
+	font-weight: 400;
 	color: #000;
 }
-table th,td{
+
+table th,
+td {
 	padding: 20px;
 	word-wrap: break-word;
 }
-footer{
+
+footer {
 	margin-top: 50px;
 }
-main{
+
+main {
 	margin-top: 200px;
 	margin-bottom: 200px;
 }
-.ordertable{
+
+.ordertable {
 	border: 2px #ACA89B solid;
 	border-radius: 25px;
 	display: grid;
-	grid-template-rows:100px repeat(8, 1fr) 100px;
+	grid-template-rows: 100px repeat(8, 1fr) 100px;
 	grid-template-columns: 80% 20%;
 	gap: 20px;
 	justify-items: center;
 
 }
-.ordertable th{
+
+.ordertable th {
 	background-color: #ACA89B;
 	border-radius: 20px 20px 0px 0px;
 }
 
-#title{
+#title {
 	color: white;
 	display: block;
 }
-#googlemap{
-	margin-top: auto; 
+
+#googlemap {
+	margin-top: auto;
 	margin-bottom: auto;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: 0;
 }
-#contactus{
+
+#contactus {
 	border-radius: 25px;
 	background: #ACA89B;
 	padding: 50px 70px 70px;
 	margin: 50px auto;
 	width: 1500px;
 }
-#contactus h2{
+
+#contactus h2 {
 	text-align: left;
 }
-#flexbox{
+
+#flexbox {
 	display: inline-flex;
 	width: 100%;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
-.radio-inline{
+.radio-inline {
 	margin: 0px 40px 20px 0px;
 	cursor: pointer;
 }
 
-.showLike{
+.showLike {
 
-	display:none;
+	display: none;
 }
-.upper{
+
+.upper {
 	margin-bottom: 150px;
 }
-.nav{
+
+.nav {
+	font-family: 'Roboto Mono', monospace;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	background-color: #D5D1C2;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.nav_container{
 	font-family: 'Roboto Mono', monospace;
 	position:fixed;
 	display: flex;
-  justify-content: center;
-  background-color: #D5D1C2;
-  width: 100%;
-  left: 0;
-  top: 0;
+	align-items: center;
+	justify-content: center;
+	background-color: #D5D1C2;
+	width: 100%;
+	opacity:0; 
+	transition: opacity 1s ease-in;
 }
+
+.nav_container:hover {
+	opacity: 1;
+}
+
 .nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  list-style-type: none;
-  align-items: center;
-  background-color: #D5D1C2;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+	list-style-type: none;
+	align-items: center;
+	background-color: #D5D1C2;
+	text-align: center;
+	padding: 0;
+	margin: 0;
 }
+
 .nav li {
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+	word-spacing: 1px;
 }
+
 /*.center_menu{
 	margin: 0 auto;
 } */
+
 .nav a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  transition: .3s background-color;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	transition: .3s background-color;
 }
- 
+
 .nav a:hover {
-  background-color: #868274;
+	background-color: #868274;
 }
- 
+
 .nav a.active {
-  background-color: #868274;
-  color: #444;
-  cursor: default;
+	background-color: #868274;
+	color: #444;
+	cursor: default;
 }
+
 @media screen and (min-width: 600px) {
-  .nav li {
-    width: 200px;
-    border-bottom: none;
-    height: 145px;
-    line-height: 145px;
-    font-size: 1.4em;
-  }
- 
+	.nav li {
+		width: 200px;
+		border-bottom: none;
+		height: 145px;
+		line-height: 145px;
+		font-size: 1.4em;
+	}
+
 	/* Option 1 - Display Inline*/
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-}
-/*ul {
+	.nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+
+	/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -177,20 +216,22 @@ main{
   li a:hover:not(.active) {
     background-color: #868274;
   }*/
-	
+
 	/*Staet of grid css*/
-	.order_container{
+	.order_container {
 		width: 80%;
 		margin: 50px auto;
 		display: grid;
-		grid-template-columns: repeat(4,1fr);
-  	gap:50px;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 50px;
 	}
-	.grid_head, .grid_image{
+
+	.grid_head,
+	.grid_image {
 		grid-column-start: 1;
 		grid-column-end: 3;
 	}
 
-	.grid_info{
+	.grid_info {
 		justify-items: center;
 	}
